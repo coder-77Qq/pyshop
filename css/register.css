@@ -1,0 +1,183 @@
+*::selection {
+	background: 0;
+}
+
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.head {
+	height: 85px;
+	border-bottom: 2px solid #b1191a;
+}
+
+.head img {
+	height: 50px;
+	margin: 20px 0;
+}
+
+.bod {
+	height: 450px;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+}
+
+.bod .tit {
+	height: 40px;
+	background-color: #ececec;
+	
+}
+
+.tit span,
+.tit p {
+	margin: 10px;
+	line-height: 20px;
+	color: #666;
+}
+
+.tit p {
+	font-size: 12px;
+}
+
+.tit p a {
+	color: #b1191a;
+}
+
+.tit p a:hover {
+	color: red;
+}
+
+.fom {
+	width: 540px;
+	margin: 20px auto;
+}
+
+.fom label span {
+	font-size: 12px;
+	color: #666;
+}
+
+.fom label input {
+	outline: none;
+	width: 240px;
+	height: 30px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+}
+
+.fom img {
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	margin-left: 10px;
+}
+
+form span,
+form p,
+form a {
+	font-size: 12px;
+}
+
+form .error {
+	color: red;
+}
+
+form .success {
+	color: #39ba36;
+}
+
+form p {
+	color: #ccc;
+	margin-left: 160px;
+	padding: 10px 0;
+}
+
+form p span {
+	color: #fff;
+	display: inline-block;
+	padding: 0 10px;
+	margin: 0 2px;
+}
+
+form p span:nth-child(1) {
+	background-color: red;
+}
+
+form p span:nth-child(2) {
+	background-color: #39ba36;
+}
+
+form p span:nth-child(3) {
+	background-color: #ff9900;
+}
+
+form .check input {
+	width: 12px;
+	height: 12px;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+form .check {
+	margin: 10px 0 10px 70px;
+}
+
+form .check span,
+form .check a {
+	margin-top: 7px;
+	display: inline-block;	
+}
+
+form .check a {
+	color: #03e4f3;
+}
+
+form .check a:hover {
+	color: red;
+}
+
+form .btn {
+	background-color: #b1191a;
+	width: 200px;
+	height: 30px;
+	color: #fff;
+	border: 0;
+	margin: 20px 0 0 100px; 
+	cursor: pointer;
+}
+
+form .btn:hover {
+	background-color: red;
+}
+
+.foot {
+	width: 760px;
+	height: 70px;
+	margin: 20px auto;
+	font-size: 0;
+	text-align: center;
+}
+
+.foot a {
+	margin: 5px 0;
+	display: inline-block;
+	color: #666;
+	font-size: 12px;
+}
+
+.foot a:hover span,
+.foot p a:hover{
+	color: red;
+}
+
+.foot span,
+.foot p {
+	font-size: 12px;
+	color: #666;
+}
+
+.foot a i {
+	display: inline-block;
+	margin: 0 6px;
+}
